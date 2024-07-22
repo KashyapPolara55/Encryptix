@@ -3,98 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Landing Page</title>
-    <link rel="stylesheet" href="task1.css">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="task2.css">
 </head>
 <body>
-    <header class="header">
+    <header>
         <div class="myclass">
-            <h1 class="logo"> Simple Landing Page</h1>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#pricing">Pricing</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+            <h1>Kashyap Polara</h1>
+            <p>Web Developer</p>
         </div>
     </header>
 
-    <main>
-        <section id="features" class="section">
-            <div class="myclass">
-                <h2>Our Features</h2>
-                <div class="feature">
-                    <h3>Feature 1</h3>
-                    <p>Description of Feature 1 goes here.</p>
-                </div>
-                <div class="feature">
-                    <h3>Feature 2</h3>
-                    <p>Description of Feature 2 goes here.</p>
-                </div>
-                <div class="feature">
-                    <h3>Feature 3</h3>
-                    <p>Description of Feature 3 goes here.</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="pricing" class="section">
-            <div class="myclass">
-                <h2>Pricing</h2>
-                <p>Choose a plan that works for you.</p>
-                <div class="pricing-plans">
-                    <div class="plan">
-                        <h3>Basic Plan</h3>
-                        <p>$10/month</p>
-                        <ul>
-                            <li>Feature 1</li>
-                            <li>Feature 2</li>
-                        </ul>
-                        <a href="#contact" class="btn">Sign Up</a>
-                    </div>
-                    <div class="plan">
-                        <h3>Pro Plan</h3>
-                        <p>$20/month</p>
-                        <ul>
-                            <li>Feature 1</li>
-                            <li>Feature 2</li>
-                            <li>Feature 3</li>
-                        </ul>
-                        <a href="#contact" class="btn">Sign Up</a>
-                    </div>
-                    <div class="plan">
-                        <h3>Enterprise Plan</h3>
-                        <p>Contact Us</p>
-                        <ul>
-                            <li>Feature 1</li>
-                            <li>Feature 2</li>
-                            <li>Feature 3</li>
-                            <li>Feature 4</li>
-                        </ul>
-                        <a href="#contact" class="btn">Contact Us</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact" class="section">
-            <div class="myclass">
-                <h2>Contact Us</h2>
-                <form action="#" method="POST" class="contact-form">
-                    <input type="text" name="name" placeholder="Your Name" required>
-                    <input type="email" name="email" placeholder="Your Email" required>
-                    <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
-                    <button type="submit" class="btn">Send Message</button>
-                </form>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
+    <section id="about">
         <div class="myclass">
-            <p>&copy; 2024 Simple Landing Page. All rights reserved.</p>
+            <h2>About Me</h2>
+            <div class="bio">
+                <img src="myimage.jpeg" alt="Kashyap Polara">
+                <p>Aspiring developer with a foundational understanding of HTML, CSS,
+                    and JavaScript, eager to contribute and grow in the dynamic world
+                    of web development. A dedicated learner with a knack for
+                    problemsolving and a keen eye for detail. Seeking opportunities to
+                    collaborate with experienced developers and contribute to
+                    innovative projects</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="myclass">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5 & CSS3</li>
+                <li>JavaScript</li>
+                <li>Responsive Web Design</li>
+                <li>Basic UI/UX Design</li>
+                <li>MERN Stack</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="myclass">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project Title 1</h3>
+                <p> Netflix Clone </p>
+                <img src="netflixclone.jpg" alt="Project 1">
+            </div>
+            <div class="project">
+                <h3>Project Title 2</h3>
+                <p>Spotify Clone</p>
+                <img src="spotifyclone.jpg" alt="Project 2">
+            </div>
+        </div>
+    </section>
+
+    <section id="resume">
+        <div class="myclass">
+            <h2>Resume</h2>
+            <p>Download my resume <a href="myresume.pdf" target="_blank">here</a>.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="myclass">
+            <h2>Contact</h2>
+            <p>Email: kashyap.21beitt002@gmail.com.com</p>
+            <p>Phone: +91 1234567890</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="myclass">
+            <p>&copy; 2024 Kashyap Polara. All rights reserved.</p>
+            <p>Website: <a href="https://www.kashyappolara.com">www.kashyappolara.com</a></p>
         </div>
     </footer>
+
 </body>
 </html>
