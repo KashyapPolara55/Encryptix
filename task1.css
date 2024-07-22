@@ -1,0 +1,163 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: papayawhip;
+}
+
+.myclass {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: purple;
+    color: black;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 2em;
+    margin-left: 37%;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin-left: 40%;
+
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: underline;
+    font-size: 1.1em;
+}
+
+
+.section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.feature {
+    margin-bottom: 40px;
+    
+}
+
+.feature h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    
+
+}
+
+.feature p {
+    font-size: 1.1em;
+    
+}
+
+
+.pricing-plans {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.plan {
+    padding: 20px;
+    margin: 0 20px;
+    text-align: center ;
+    background-color: pink;
+    border: 1px solid red;
+    border-radius: 5px;
+    flex-basis: 300px;
+    
+}
+
+.plan h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.plan p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.plan a{
+    color:blue;
+}
+
+.plan ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.plan ul li {
+    margin-bottom: 10px;
+}
+
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    
+}
+
+.contact-form input,
+.contact-form textarea {
+    
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+
+.footer {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 0px 20px 0 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
